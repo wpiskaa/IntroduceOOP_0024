@@ -16,5 +16,7 @@ void inputData(){
     cin >> nama_mobil;
     cout << "Masukkan tipe mobil: ";
     cin >> tipe_mobil;
+    cout << "Masukkan harga mobil: ";
+    cin >> harga_mobil;
 }
 };
