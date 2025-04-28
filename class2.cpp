@@ -14,5 +14,12 @@ class PersegiPanjang{
         cout << "Masukkan Lebar :";
         cin >> Lebar;
     }
+    void outputData(){
+        cout << "Tampilkan Luas :" << Luas << endl;
+    }
+
+void hitungLuas(){
+    Luas : Panjang*Lebar;
+}
 
 };
