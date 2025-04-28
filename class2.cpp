@@ -35,4 +35,6 @@ int main()
     pp.inputData();
     pp.hitungLuas();
     pp.outputData();
+
+    return 0;
 }
