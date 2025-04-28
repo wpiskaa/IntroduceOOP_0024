@@ -7,6 +7,12 @@ class PersegiPanjang{
     int Lebar;
     int Luas;
 
-   
+    public:
+    void inputData(){
+        cout << "Masukkan Panjang :";
+        cin >> Panjang;
+        cout << "Masukkan Lebar :";
+        cin >> Lebar;
+    }
 
 };
