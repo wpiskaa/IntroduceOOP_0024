@@ -23,5 +23,8 @@ public:
 };
 int main(){
     Mobil Pejabat;
-    
+    Pejabat.inputData();
+    cout << "Nama Mobil :" << Pejabat.nama_mobil << endl;
+    cout << "Tipe Mobil :" << Pejabat.tipe_mobil << endl;
+
 }
