@@ -20,11 +20,15 @@ public:
         cout << "Masukkan harga mobil: ";
         cin >> harga_mobil;
     }
+    void outputData(){
+        cout << "Harga Mobil :" << harga_mobil << endl;
+    }
 };
-int main(){
+int main()
+{
     Mobil Pejabat;
     Pejabat.inputData();
     cout << "Nama Mobil :" << Pejabat.nama_mobil << endl;
     cout << "Tipe Mobil :" << Pejabat.tipe_mobil << endl;
-
+    Pejabat.outputData();
 }
